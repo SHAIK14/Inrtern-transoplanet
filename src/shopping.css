@@ -1,9 +1,14 @@
-.main {
-}
 .primary {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   border: 2px solid black;
+  gap: 8px;
+}
+.content {
+  display: flex;
+  border: 2px solid black;
+  height: 200px;
+  width: 200px;
 }

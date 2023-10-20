@@ -10,7 +10,10 @@ const Shopping = () => {
         <div className="search">
           <input type="search" />
         </div>
-        <div></div>
+        <div className="searchbtn">
+          <button className="search">search</button>
+        </div>
+        <div className="content"></div>
       </div>
     </div>
   );
